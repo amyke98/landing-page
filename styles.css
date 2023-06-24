@@ -101,3 +101,20 @@ a {
     gap: 30px;
     margin: 0 100px;
 }
+
+.quotation {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    margin: 0 100px;
+}
+
+.character {
+    text-align: right;
+}
