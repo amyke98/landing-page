@@ -3,7 +3,6 @@
 }
 
 body {
-    display: flex;
     font-family: sans-serif;
 }
 
@@ -67,8 +66,38 @@ a {
     width: 100px;
 }
 
-img {
+.text-image img {
     height: auto;
     min-width: 500px;
     padding: 50px;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.images img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    flex-shrink: 1;
+}
+
+.pictures {
+    display: flex;
+    gap: 30px;
+    margin: 0 100px;
 }
