@@ -1,6 +1,4 @@
-* {
-    border: 1px solid blue;
-}
+
 
 body {
     font-family: sans-serif;
@@ -68,12 +66,14 @@ a {
     border-radius: 20px;
     background-color: #3882f6;
     width: 100px;
+    color: white;
 }
 
 .text-image img {
     height: auto;
     min-width: 500px;
     padding: 50px;
+    margin: 10px;
 }
 
 .random-info {
@@ -123,4 +123,40 @@ a {
     text-align: right;
     margin-top: -100px;
     margin-right: 50px;
+}
+
+.call {
+    height: auto;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.action {
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    margin: 10px;
+    color: white;
+}
+
+
+.action-button button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    margin: 10px;
 }
