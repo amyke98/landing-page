@@ -6,6 +6,10 @@ body {
     font-family: sans-serif;
 }
 
+img {
+    border: 1px solid blue;
+}
+
 .hero {
     background-color: #1f2937;
     color: white;
@@ -117,4 +121,6 @@ a {
 
 .character {
     text-align: right;
+    margin-top: -100px;
+    margin-right: 50px;
 }
